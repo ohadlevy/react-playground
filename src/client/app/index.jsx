@@ -1,5 +1,8 @@
 import React from 'react';
 import {render} from 'react-dom';
+import 'patternfly/dist/css/patternfly.min.css';
+import 'patternfly/dist/css/patternfly-additions.min.css';
+
 import AwesomeComponent from './AwesomeComponent.jsx';
 
 class App extends React.Component {

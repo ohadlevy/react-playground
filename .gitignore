@@ -1,1 +1,6 @@
 node_modules
+src/client/public/bundle.js
+src/client/public/*.eot
+src/client/public/*.ttf
+src/client/public/*.woff*
+src/client/public/*.svg
