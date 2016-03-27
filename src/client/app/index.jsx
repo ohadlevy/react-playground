@@ -4,6 +4,7 @@ import 'patternfly/dist/css/patternfly.min.css';
 import 'patternfly/dist/css/patternfly-additions.min.css';
 
 import AwesomeComponent from './AwesomeComponent.jsx';
+import EmptyStatecomponent from './EmptyStateComponent.jsx';
 
 class App extends React.Component {
   render () {
@@ -11,6 +12,10 @@ class App extends React.Component {
     	 <div>
     	   <p> Hello React</p>
     	   <AwesomeComponent />
+    	   <EmptyStatecomponent
+    	     header='Empty State Title'
+             body='abc'
+             />
     	 </div>
     	 );
   }
