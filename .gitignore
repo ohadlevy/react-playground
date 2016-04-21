@@ -1,5 +1,7 @@
 node_modules
-src/client/public/bundle.js
+src/client/public/bundle.*
+src/client/public/*.gif
+src/client/public/*.jpg
 src/client/public/*.eot
 src/client/public/*.ttf
 src/client/public/*.woff*
